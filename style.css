@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+img{
+    width: 200px;
+    height: 250px;
+    padding: 10px 25px 0px 25px;
+    
+}
+
+#add , #fav ,#discount , #price{
+    float: left;
+}
+.clear{
+    clear: left;
+}
+.item{
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 250px;
+    border: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    
+}
+h2{
+    margin: 50px 0px 25px 60px;
+  
+}
+h3 , p {
+    margin-left: 25px;
+    padding: 5px;
+}
+#add{
+  text-align: center;
+  color: white;
+  background-color: blue;
+  width: 150px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+#fav{
+    width: 30px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;  
+    margin-left: 3px;;
+   
+    text-align: center;
+}
+#discount{
+    color: green;
+    font-weight: bold;
+}
+#price{
+    margin-left: 3px;
+    margin-top: 5px;
+    color: red;
+    text-decoration-line: line-through;
+    font-size: x-small;
+}
+
